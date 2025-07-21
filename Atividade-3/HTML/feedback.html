@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Feedback</title>
+  </head>
+  <body>
+    <h1>Formulário de Feedback</h1>
+    <form>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="endereço">Endereço:</label>
+      <input type="text" id="endereço" name="endereço" required /><br /><br />
+
+      <label for="feedback">Feedback:</label><br />
+      <textarea
+        id="feedback"
+        placeholder="Digite seu feedback aqui..."
+        name="feedback"
+        rows="4"
+        cols="50"
+        required
+      ></textarea
+      ><br /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
