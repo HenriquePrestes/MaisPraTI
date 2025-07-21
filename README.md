@@ -41,3 +41,8 @@ Este repositório contém uma lista de exercícios feitos em JavaScript como par
 - Todos os exercícios usam JavaScript puro e entrada de dados via prompt-sync.
 - Comentários no código explicam a lógica utilizada.
 ---
+
+## Atividade 3
+
+- A atividade 3 existem pastas separando os arquivos de um unico local, html, css, javascript e imagem.
+- Basta executar com preview para ver o resultado da atividade! 
