@@ -1,0 +1,65 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #121212;
+}
+
+#navbar h2 a {
+    color: rgb(98, 238, 98);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.3s;
+}
+
+#navbar h2 a:hover{
+    transform: scale(1.15);
+}
+
+#navbar form {
+    display: flex;
+    gap: .5rem;
+}
+
+#navbar input {
+    padding: .2rem 1rem; 
+    border-radius: 4px;
+    border: none;
+    width: 300px; 
+    font-size: 1rem; 
+}
+
+#navbar form button {
+    background-color: rgb(98, 238, 98);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgb(6, 31, 5);
+    padding: .3rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+
+}
+#navbar form button:hover {
+    background-color: #222e35; 
+    color: rgb(98, 238, 98)
+
+}
+#navbar .favoritos-btn {
+    background-color: white;
+    color: #181818;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: background-color 0.4s, color 0.4s;
+}
+#navbar .favoritos-btn:hover {
+    background-color: #39ff14;
+    color: black;
+}
