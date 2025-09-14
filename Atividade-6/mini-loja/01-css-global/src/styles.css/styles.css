@@ -4,11 +4,11 @@
   gap: 1.2rem;
 }
 :root {
-  --color-bg-light: #f7f4f4;
+  --color-bg-light: #fdfdfd;
   --color-bg-dark: #18182b;
-  --color-primary: #21f845;
+  --color-primary: #2197f8;
   --color-primary-dark: #7c1ef8;
-  --color-card: #fff;
+  --color-card: #ffd6d6;
   --color-card-dark: #23232b;
   --color-text: #222;
   --color-text-dark: #eee;
@@ -51,7 +51,13 @@ body.dark .navbar {
   font-weight: bold;
   font-size: 1.3rem;
   letter-spacing: 1px;
+  transition: color var(--transition), transform var(--transition);
 }
+.navbar__logo:hover {
+  color: var(--color-primary-dark);
+  transform: scale(1.08);
+}
+
 
 .navbar__theme-toggle {
   background: none;

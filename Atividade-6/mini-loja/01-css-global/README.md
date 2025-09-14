@@ -1,12 +1,29 @@
-# React + Vite
+# Mini Loja - CSS Global
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta versão implementa a mini loja usando **CSS global** para estilização.
 
-Currently, two official plugins are available:
+## Funcionalidades
+- Navbar fixa com logo, tema claro/escuro (persistente) e badge do carrinho
+- Grid responsiva de produtos com breakpoints exatos
+- Cards de produto com imagem, título, preço, rating, tag e botão "Adicionar"
+- Botão com variantes (solid, outline, ghost) e estados (hover, focus, loading, disabled)
+- Skeleton de loading sem layout shift
+- Dark mode aplicado a cores, sombras e bordas
+- Acessibilidade: navegação por teclado, `aria-*`, contraste adequado
+- Animações suaves (transform/opacity)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Organização
+- Componentes em `src/componentes/`
+- Estilos globais em `src/styles.css/styles.css`
+- Tokens de design (cores, espaçamentos, raio, sombras) definidos em `:root`
 
-## Expanding the ESLint configuration
+## Como rodar
+1. Instale as dependências: `npm install`
+2. Inicie o projeto: `npm run dev`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+**Técnica usada:** CSS global
+Mini Loja - CSS Global
+
+Esta versão implementa a mini loja usando CSS global para estilização.
+

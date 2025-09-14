@@ -3,7 +3,7 @@ import { MdDarkMode, MdLightMode, MdShoppingCart } from 'react-icons/md';
 
 
 
-const LOGO = 'Mini-Loja dos Guri';
+const LOGO = 'Mini-Loja de Donuts';
 
 export default function Navbar({ cartCount = 0 }) {
 	const [theme, setTheme] = useState(() => {

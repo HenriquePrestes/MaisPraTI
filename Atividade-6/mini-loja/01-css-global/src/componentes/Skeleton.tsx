@@ -1,6 +1,6 @@
 // @ts-ignore
 import products from './products';
-import ProdutoCarrinho from './ProdutoCarrinho';
+import ProdutoCarrinho from './ProductCard';
 
 type Product = {
   id: number;
