@@ -1,8 +1,13 @@
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
 :root {
-  --color-bg-light: #f7f7f7;
-  --color-bg-dark: #18181b;
-  --color-primary: #646cff;
-  --color-primary-dark: #535bf2;
+  --color-bg-light: #f7f4f4;
+  --color-bg-dark: #18182b;
+  --color-primary: #21f845;
+  --color-primary-dark: #7c1ef8;
   --color-card: #fff;
   --color-card-dark: #23232b;
   --color-text: #222;
@@ -27,16 +32,16 @@ body.dark {
 .navbar {
   position: sticky;
   top: 0;
+  left: 0;
+  width: 115rem;
   z-index: 10;
   background: var(--color-card);
   color: var(--color-text);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem;
   box-shadow: var(--shadow);
-  border-radius: 0 0 var(--radius) var(--radius);
-  transition: background var(--transition), color var(--transition);
 }
 body.dark .navbar {
   background: var(--color-card-dark);
@@ -47,6 +52,7 @@ body.dark .navbar {
   font-size: 1.3rem;
   letter-spacing: 1px;
 }
+
 .navbar__theme-toggle {
   background: none;
   border: none;
@@ -54,6 +60,9 @@ body.dark .navbar {
   cursor: pointer;
   margin: 0 1rem;
   transition: color var(--transition);
+}
+.icon-dark {
+  color: #000000 !important;
 }
 .navbar__theme-toggle:focus {
   outline: 2px solid var(--color-primary);
@@ -63,6 +72,7 @@ body.dark .navbar {
   position: relative;
   font-size: 1.5rem;
 }
+
 .navbar__badge {
   position: absolute;
   top: -8px;
@@ -163,6 +173,7 @@ body.dark .product-card {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
+  line-clamp: 2;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }

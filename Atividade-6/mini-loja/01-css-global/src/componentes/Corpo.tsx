@@ -1,3 +1,4 @@
+// @ts-ignore
 import products from './products';
 import ProdutoCarrinho from './ProdutoCarrinho';
 

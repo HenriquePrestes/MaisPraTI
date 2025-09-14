@@ -20,7 +20,7 @@ export default function ProdutoCarrinho({ product, onAddToCart }: Props) {
 
 	const handleAdd = async () => {
 		setLoading(true);
-		await new Promise((r) => setTimeout(r, 800)); // Simula atraso
+		await new Promise((r) => setTimeout(r, 800)); 
 		setLoading(false);
 		if (onAddToCart) onAddToCart(product);
 	};
@@ -61,7 +61,7 @@ export function Corpo({ onAddToCart }: { onAddToCart: (product: any) => void }) 
 	return (
 		<div>
 			<h1>Corpo do Componente</h1>
-			{/* Outros conteúdos e lógica do componente */}
+			
 		</div>
 	);
 }
