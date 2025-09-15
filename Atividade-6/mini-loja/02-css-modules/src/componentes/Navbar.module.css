@@ -1,0 +1,72 @@
+.themeToggle {
+  color: #222;
+}
+body.dark .themeToggle {
+  color: #ffb300;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  position: sticky;
+  padding: 1rem 2rem;
+  background-color: var(--navbar-bg, #ffe3e3);
+  color: var(--navbar-color, #333);
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s;
+}
+.logo:hover {
+  color: #7c1ef8;
+  transform: scale(1.08);
+}
+
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.themeToggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.themeToggle:focus {
+  outline: 2px solid #888;
+}
+
+.iconDark {
+  color: #222;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.badge {
+  background: #e91e63;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.2em 0.6em;
+  font-size: 0.9em;
+  position: absolute;
+  top: -8px;
+  right: -12px;
+}

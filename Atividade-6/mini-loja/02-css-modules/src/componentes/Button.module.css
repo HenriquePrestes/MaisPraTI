@@ -1,0 +1,32 @@
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	font-weight: 500;
+	border: none;
+	border-radius: 8px;
+	padding: 0.6em 1.4em;
+	cursor: pointer;
+	transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+	outline: none;
+}
+
+.btn--solid {
+	background: #2563eb;
+	color: #fff;
+	box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+}
+.btn--solid:hover,
+.btn--solid:focus {
+	background: #7c1ef8;
+}
+.btn:disabled,
+.btn[aria-busy="true"] {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+.btn__loader {
+	font-size: 1.2em;
+	color: #fff;
+}
